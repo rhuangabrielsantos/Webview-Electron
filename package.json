@@ -1,5 +1,9 @@
 {
-  "name": "webview-electron",
+  "name": "@rhuangabrielsantos/webview-electron",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhuangabrielsantos/Webview-Electron"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -12,5 +16,5 @@
   "dependencies": {
     "electron": "^10.1.5"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/rhuangabrielsantos" }
 }
