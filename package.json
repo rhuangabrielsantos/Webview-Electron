@@ -4,12 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron . --enable-transparent-visuals --disable-gpu"
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "electron": "^10.1.5"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
